@@ -29,7 +29,7 @@ public class MyCircularQueue {
             rear = (rear + 1) % maxSize;
             size++;
         } else {
-            System.out.println("Queue is full.");
+            System.out.println("Queue full");
         }
     }
 
