@@ -17,9 +17,9 @@ public class MyMain {
         MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree(myQueue);
         myBinarySearchTree.insert(10);
         myBinarySearchTree.insert(20);
-        myBinarySearchTree.insert(3);
         myBinarySearchTree.insert(30);
-        myBinarySearchTree.insert(15);
+        myBinarySearchTree.insert(40);
+        myBinarySearchTree.insert(50);
         myBinarySearchTree.preOrder(myBinarySearchTree.getRoot());
         System.out.println("preorder successors");
         myQueue.show();
