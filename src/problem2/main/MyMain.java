@@ -9,11 +9,11 @@ public class MyMain {
         MyQueue preQueue = new MyQueue();
         MyQueue postQueue = new MyQueue();
         MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree(preQueue, postQueue);
-        myBinarySearchTree.insert(15);
         myBinarySearchTree.insert(10);
+        myBinarySearchTree.insert(20);
+        myBinarySearchTree.insert(30);
+        myBinarySearchTree.insert(40);
         myBinarySearchTree.insert(50);
-        myBinarySearchTree.insert(55);
-        myBinarySearchTree.insert(60);
         myBinarySearchTree.postOrder(myBinarySearchTree.getRoot());
         myBinarySearchTree.preOrder(myBinarySearchTree.getRoot());
         System.out.println("PreOrder:");
